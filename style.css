@@ -293,7 +293,11 @@ li {
 /* sec2 */
 
 .sec2 img {
-  width: 360px;
+  width: 330px;
+}
+
+.section2 {
+  position: relative;
 }
 
 .section2 .wideContainer {
@@ -307,6 +311,25 @@ li {
 .wideSlider {
   background-color: rgb(207, 207, 207);
   height: 650px;
+}
+
+.inContents {
+  max-width: 1078px;
+  margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 0 24px; */
+}
+
+.inContentsOne li {
+  display: inline-block;
+}
+
+.inContentsOneAndOne {
+  height: 547px;
+  width: 330px;
+  border: 1px solid yellow;
+  background-color: burlywood;
 }
 
 /* //sec2 */
