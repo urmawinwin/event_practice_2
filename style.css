@@ -12,6 +12,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'paybooc-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /* 초기화 */
 body,
 html {
@@ -216,9 +223,10 @@ li {
   display: inline-block;
   background-color: #111;
   color: white;
-  padding: 25px 62px;
+  padding: 4px 138px;
   /* border-radius: 40px; */
   cursor: pointer;
+  font-size: 52px;
 }
 
 /* event_fixmenu */
@@ -300,7 +308,7 @@ li {
 
 .section1 .container .slider .content {
   padding-top: 160px;
-  padding-left: 40px;
+  padding-left: 60px;
   /* border: 1px solid red; */
   /* flex: 1; */
   flex: 0.7;
@@ -311,6 +319,16 @@ li {
   font-weight: 500;
   color: rgb(85, 84, 84);
   font-family: "ELAND_Choice_L";
+  font-weight: 700;
+}
+
+.section1 .container .slider .content .jin {
+  font-size: 17px;
+  color: #ee4e34;
+  font-family: "ELAND_Choice_L";
+  font-weight: 700;
+  padding-bottom: 20px;
+  display: block;
 }
 
 .section1 .container .slider .content h2 {
@@ -323,6 +341,9 @@ li {
 .section1 .container .slider .content .mainMent {
   font-size: 17px;
   font-family: "ELAND_Choice_L";
+  font-weight: 700;
+  color: rgb(85, 84, 84);
+  line-height: 1.25;
 }
 
 .section1 .container .slider .contentImg {
@@ -337,6 +358,11 @@ li {
 .section1 .container .slider .contentImg img {
   width: 100%;
   padding-top: 88px;
+}
+
+.sec1 .container .slider .content h2 {
+  padding: 10px 0 40px 0;
+  margin: 0;
 }
 
 /* //sec1 */
@@ -456,10 +482,21 @@ li {
   margin: 0;
 }
 
+.sec3 .container .slider .content .jin {
+  font-size: 17px;
+  color: #ee4e34;
+  font-family: "ELAND_Choice_L";
+  font-weight: 700;
+  padding-bottom: 20px;
+  display: block;
+}
+
 /* //sec3 */
 
 .sec4 {
   text-align: center;
+  height: 115vh;
+  /* border: 1px solid red; */
 }
 
 .sec4 .container .slider {
@@ -489,7 +526,8 @@ li {
 }
 
 .sec4 .container .slider {
-  height: 890px;
+  /* height: 890px; */
+  height: 1054px;
 }
 
 .sec4 .container .slider .content {
@@ -503,6 +541,8 @@ li {
   padding-top: 80px;
   padding-left: 0;
 }
+
+
 
 /* //sec4 */
 
@@ -532,10 +572,11 @@ li {
   padding: 140px 0 0 0;
 }
 
-.container {
-  /* max-width: 1159px; */
+.section6 .container {
+  max-width: 1400px;
   /* max-width: 970px; */
   margin: 0 auto;
   width: 100%;
   padding: 0 24px;
+  border: 1px solid red;
 }
