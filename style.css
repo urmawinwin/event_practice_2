@@ -14,8 +14,9 @@
 }
 
 @font-face {
-  font-family: 'paybooc-Medium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
+  font-family: "paybooc-Medium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -230,8 +231,8 @@ li {
 }
 
 .main-free-btn:hover {
-  background-color:#ee4e34;
-  content: '010';
+  background-color: #ee4e34;
+  content: "010";
 }
 
 /* event_fixmenu */
@@ -503,7 +504,7 @@ li {
 
 .sec4 {
   text-align: center;
-  height: 115vh;
+  height: 134vh;
   /* border: 1px solid red; */
 }
 
@@ -524,7 +525,7 @@ li {
   padding-top: 43px;
 }
 
-.sec4 .container .slider .content span{
+.sec4 .container .slider .content span {
   font-size: 52px;
   font-family: "S-CoreDream-3Light";
   margin: 0;
@@ -549,8 +550,6 @@ li {
   padding-top: 80px;
   padding-left: 0;
 }
-
-
 
 /* //sec4 */
 
@@ -590,20 +589,22 @@ li {
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   display: block;
   width: 48%;
-  padding: 12px; /* Some padding */ 
+  padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+input[type="submit"] {
   background-color: #ee4e34;
   color: white;
   padding: 12px 316px;
@@ -613,7 +614,7 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
@@ -623,4 +624,3 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 } */
-
