@@ -36,7 +36,8 @@ li {
   height: 86vh;
   width: 100%;
   /* background-color: rgb(207, 207, 207); */
-  background-color: white;
+  /* background-color: rgb(233, 233, 233); */
+  background-color: #fcedda;
   padding: 140px 0 0 0;
 }
 
@@ -52,7 +53,7 @@ li {
 .slider {
   /* margin-top:  80px; */
   /* background-color: rgb(19, 54, 150); */
-  background-color: rgb(233, 233, 233);
+  background-color: white;
   height: 650px;
   border-radius: 20px;
 }
@@ -164,7 +165,7 @@ li {
   /* background-color: rgb(17, 77, 146); */
   /* background-color: rgb(19, 54, 150); */
   background-color: #fcedda;
-  margin-top: 76px;
+  margin-top: 114px;
 }
 
 #guard {
@@ -301,38 +302,40 @@ li {
   padding-top: 160px;
   padding-left: 40px;
   /* border: 1px solid red; */
-  flex: 1;
+  /* flex: 1; */
+  flex: 0.7;
 }
 
 .section1 .container .slider .content span {
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 500;
   color: rgb(85, 84, 84);
+  font-family: "ELAND_Choice_L";
 }
 
 .section1 .container .slider .content h2 {
   font-size: 52px;
   font-family: "S-CoreDream-3Light";
-  margin-top: 0;
+  margin: 0;
   padding-top: 0;
 }
 
 .section1 .container .slider .content .mainMent {
   font-size: 17px;
+  font-family: "ELAND_Choice_L";
 }
 
 .section1 .container .slider .contentImg {
   flex: 1;
-  padding: 50px 0;
+  padding: 20px 0;
   /* width: 60px;
   background-color: #777;
-
   padding: 50px 0;
   border-top-right-radius: 40px; */
 }
 
 .section1 .container .slider .contentImg img {
-  width: 94%;
+  width: 100%;
   padding-top: 88px;
 }
 
@@ -356,8 +359,12 @@ li {
   margin: 0 auto;
 }
 
+/* 노랑 */
 .wideSlider {
-  background-color: rgb(207, 207, 207);
+  /* background-color: rgb(207, 207, 207); */
+  /* background-color: #fcedda; */
+  /* background-color: white; */
+  background-color: #ee4e34;
   height: 810px;
 }
 
@@ -371,12 +378,13 @@ li {
 
 .section2 .wideContainer .wideSlider .inContents span {
   font-size: 22px;
-  font-weight: bold;
-  color: rgb(85, 84, 84);
+  /* font-weight: bold; */
+  color: white;
   padding-top: 80px;
   display: inline-block;
   align-items: center;
   justify-content: center;
+  font-family: "ELAND_Choice_L";
 }
 
 .section2 .wideContainer .wideSlider .inContents h2 {
@@ -384,6 +392,7 @@ li {
   align-items: center;
   padding: 0;
   margin: 0;
+  font-family: "S-CoreDream-3Light";
 }
 
 .section2 .wideContainer .wideSlider .inContents ul {
@@ -419,7 +428,8 @@ li {
   height: 547px;
   width: 330px;
   border: 1px solid yellow;
-  background-color: burlywood;
+  /* background-color: burlywood; */
+  background-color: bisque;
 }
 
 /* //sec2 */
@@ -430,6 +440,20 @@ li {
 
 .sec3 img {
   width: 90%;
+}
+
+.sec3 .container .slider .content {
+  padding-top: 116px;
+}
+
+.sec3 .container .slider .contentImg {
+  flex: 1.2;
+  padding: 30px 0;
+}
+
+.sec3 .container .slider .content h2 {
+  padding: 10px 0 40px 0;
+  margin: 0;
 }
 
 /* //sec3 */
@@ -450,10 +474,40 @@ li {
   padding: 0;
 }
 
+.sec4 .container .slider .contentImg img {
+  width: 70%;
+  padding-top: 43px;
+}
+
+.sec4 .container .slider .content span{
+  font-size: 52px;
+  font-family: "S-CoreDream-3Light";
+  margin: 0;
+  padding-top: 0;
+  color: #111;
+  font-weight: bold;
+}
+
+.sec4 .container .slider {
+  height: 890px;
+}
+
+.sec4 .container .slider .content {
+  padding-top: 60px;
+  padding-left: 40px;
+  /* border: 1px solid red; */
+  flex: 1;
+}
+
+.sec4 .container .slider .content {
+  padding-top: 80px;
+  padding-left: 0;
+}
+
 /* //sec4 */
 
 .sec5 {
-  padding: 120px 0;
+  padding: 270px 0 120px 0;
   /* background-color: black; */
 }
 
@@ -473,7 +527,8 @@ li {
   /* padding: 60px 0; */
   height: 22vh;
   width: 100%;
-  background-color: rgb(207, 207, 207);
+  /* background-color: rgb(207, 207, 207); */
+  background-color: white;
   padding: 140px 0 0 0;
 }
 
