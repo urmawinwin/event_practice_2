@@ -64,6 +64,9 @@ li {
   background-color: white;
   height: 650px;
   border-radius: 20px;
+  /* border: 1px solid #999; */
+  box-shadow: -60px 0px 100px -90px #000000,
+        60px 0px 100px -90px #000000;
 }
 
 /* header */
