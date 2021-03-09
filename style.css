@@ -576,7 +576,7 @@ li {
 
 .section6 {
   padding: 0;
-  height: 40vh;
+  height: 43vh;
   width: 100%;
   /* background-color: rgb(207, 207, 207); */
   background-color:black;
@@ -603,7 +603,7 @@ li {
 
 .section6 .container img{
  width: 83vw;
- background-image: url(assets/img/footer00_7.png) no-repeat center center fixed;
+ /* background-image: url(assets/img/footer00_7.png) no-repeat center center fixed; */
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
