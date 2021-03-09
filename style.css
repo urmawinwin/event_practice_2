@@ -598,11 +598,11 @@ li {
 
 .section6 .container{
   /* width: 900px; */
-  margin: 0 7%;
+  margin: 0 8%;
 }
 
 .section6 .container img{
- width: 1553px;
+ width: 83vw;
  background-image: url(assets/img/footer00_7.png) no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
