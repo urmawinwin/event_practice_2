@@ -40,13 +40,13 @@ li {
 .section4,
 .section5,
 .section6 {
-  padding: 60px 0;
-  height: 86vh;
+  /* padding: 60px 0; */
+  /* height: 86vh; */
   width: 100%;
   /* background-color: rgb(207, 207, 207); */
   /* background-color: rgb(233, 233, 233); */
   background-color: #fcedda;
-  padding: 140px 0 0 0;
+  /* padding: 140px 0 0 0; */
 }
 
 .container {
@@ -77,7 +77,7 @@ li {
   box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
 }
 
-.container.ab .slider{
+.container.ab .slider {
   background-color: white;
 }
 
@@ -323,6 +323,10 @@ li {
 
 /* sec1 */
 
+.sec1 {
+  padding: 150px 0 245px 0;
+}
+
 .section1 .container .slider {
   display: flex;
 }
@@ -393,6 +397,10 @@ li {
 
 /* sec2 */
 
+.sec2 {
+  /* padding: 410px 0; */
+}
+
 .sec2 img {
   width: 330px;
 }
@@ -453,7 +461,7 @@ li {
   font-family: "S-CoreDream-3Light";
 }
 
-.bt{
+.bt {
   font-size: 28px;
   font-family: "S-CoreDream-3Light";
 }
@@ -479,10 +487,9 @@ li {
   display: block;
 }
 
-.section2 .wideContainer .wideSlider .inContents .inContentsOne li iframe{
+.section2 .wideContainer .wideSlider .inContents .inContentsOne li iframe {
   padding: 0 15px;
 }
-
 
 .section2
   .wideContainer
@@ -505,19 +512,19 @@ li {
   padding-top: 8px;
 }
 
-.inContentsOneAndOne h2{
+.inContentsOneAndOne h2 {
   font-size: 22px;
   padding: 0 20px;
 }
 
-.inContentsOneAndOne .inone_o{
+.inContentsOneAndOne .inone_o {
   font-size: 18px;
   display: block;
-  padding:  20px;
+  padding: 20px;
   font-family: "ELAND_Choice_L";
 }
 
-.inContentsOneAndOne .inone_t{
+.inContentsOneAndOne .inone_t {
   font-size: 18px;
   display: block;
   /* padding-bottom: 30px; */
@@ -525,13 +532,13 @@ li {
   font-family: "ELAND_Choice_L";
 }
 
-.inContentsOneAndOne .inone_th strong{
+.inContentsOneAndOne .inone_th strong {
   font-size: 17px;
   font-family: "ELAND_Choice_L";
   padding-right: 52px;
 }
 
-.inContentsOneAndOne .inone_th{
+.inContentsOneAndOne .inone_th {
   font-size: 17px;
   display: inline-block;
   background-color: #000000;
@@ -543,15 +550,14 @@ li {
   font-family: "ELAND_Choice_L";
 }
 
-.last_o{
+.last_o {
   padding-top: 20px;
 }
-
 
 /* //sec2 */
 
 .sec3 {
-  padding-top: 294px;
+  padding: 310px 0;
 }
 
 .sec3 img {
@@ -585,7 +591,8 @@ li {
 
 .sec4 {
   text-align: center;
-  height: 134vh;
+  /* height: 134vh; */
+  /* padding: 410px 0; */
   /* border: 1px solid red; */
 }
 
@@ -636,8 +643,8 @@ li {
 
 .sec5 {
   /* background-color: white; */
-  /* padding: 180px 0 210px 0; */
-  height: 100vh;
+  padding: 310px 0;
+  /* height: 100vh; */
   /* background-color: black; */
 }
 
@@ -652,9 +659,6 @@ li {
 }
 
 /* //sec5 */
-
-
-
 
 .section66 {
   padding: 0;
@@ -694,20 +698,15 @@ li {
 
 /* //sec66 */
 
-
-
-
-
-
 .section6 {
   padding: 0;
-  height: 43vh;
+  /* height: 43vh; */
   width: 100%;
   /* background-color: rgb(207, 207, 207); */
   background-color: black;
   /* padding: 140px 0 50px 0; */
   margin: 0;
-  padding: 0;
+  /* padding: 410px 0; */
 }
 
 .section6 .container {
@@ -771,9 +770,6 @@ input[type="submit"]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 } */
-
-
-
 
 .modal-window {
   position: fixed;
@@ -876,8 +872,6 @@ small {
   padding-right: 0.3em;
 } */
 /* //modal */
-
-
 
 /* * {
   box-sizing: border-box;
@@ -1018,10 +1012,12 @@ html.modal-active, body.modal-active {
   background-color: transparent;
   animation: modalFadeIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
-#modal-container.six .modal-background .modal h2, #modal-container.six .modal-background .modal p {
+#modal-container.six .modal-background .modal h2,
+#modal-container.six .modal-background .modal p {
   opacity: 0;
   position: relative;
-  animation: modalContentFadeIn 0.5s 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  animation: modalContentFadeIn 0.5s 1s cubic-bezier(0.165, 0.84, 0.44, 1)
+    forwards;
 }
 #modal-container.six .modal-background .modal .modal-svg rect {
   animation: sketchIn 0.5s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
@@ -1035,8 +1031,10 @@ html.modal-active, body.modal-active {
 #modal-container.six.out .modal-background .modal {
   animation: modalFadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
-#modal-container.six.out .modal-background .modal h2, #modal-container.six.out .modal-background .modal p {
-  animation: modalContentFadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+#modal-container.six.out .modal-background .modal h2,
+#modal-container.six.out .modal-background .modal p {
+  animation: modalContentFadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+    forwards;
 }
 #modal-container.six.out .modal-background .modal .modal-svg rect {
   animation: sketchOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
@@ -1055,7 +1053,8 @@ html.modal-active, body.modal-active {
   overflow: hidden;
   animation: bondJamesBond 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
-#modal-container.seven .modal-background .modal h2, #modal-container.seven .modal-background .modal p {
+#modal-container.seven .modal-background .modal h2,
+#modal-container.seven .modal-background .modal p {
   opacity: 0;
   position: relative;
   animation: modalContentFadeIn 0.5s 1.4s linear forwards;
@@ -1073,8 +1072,10 @@ html.modal-active, body.modal-active {
   width: 227px;
   animation: killShot 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
-#modal-container.seven.out .modal-background .modal h2, #modal-container.seven.out .modal-background .modal p {
-  animation: modalContentFadeOut 0.5s 0.5 cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+#modal-container.seven.out .modal-background .modal h2,
+#modal-container.seven.out .modal-background .modal p {
+  animation: modalContentFadeOut 0.5s 0.5 cubic-bezier(0.165, 0.84, 0.44, 1)
+    forwards;
 }
 #modal-container .modal-background {
   display: table-cell;
@@ -1119,7 +1120,7 @@ html.modal-active, body.modal-active {
 .contentt {
   /* min-height: 100%; */
   /* height: 100%; */
-  background:black;
+  background: black;
   position: relative;
   z-index: 0;
 }
@@ -1150,7 +1151,7 @@ html.modal-active, body.modal-active {
 }
 .contentt .buttons:hover {
   color: white;
-  background:#ee4e34;
+  background: #ee4e34;
 }
 
 @keyframes unfoldIn {
