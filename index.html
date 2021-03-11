@@ -26,7 +26,7 @@
                     <li><a href="index1.html" class="subNavBtn" title="설 기획전" target="blank">설 기획전</a></li>
                     <li><a href="index2.html" class="subNavBtn" title="대 기획전" target="blank">대 기획전</a></li>
                     <li><a href="index4.html" class="subNavBtn" title="TV CF 이벤트" target="blank">TV CF 이벤트</a></li>
-                    <li><a href="index5.html" class="subNavBtn" title="상세페이지 모음" target="blank">상세페이지 모음</a></li>
+                    <li><a href="index5.html" class="subNavBtn" title="상세페이지 모음" target="blank">상세페이지</a></li>
                     <!-- <li><a href="index6.html" class="subNavBtn" title="인스타그램 디자인" target="blank">인스타그램 디자인</a></li> -->
                 </ul>
             </div>
@@ -58,8 +58,7 @@
                         <div id="modal-container">
                             <div class="modal-background">
                               <div class="modal">
-                                <h2>I'm a Modal</h2>
-                                <p>Hear me roar.</p>
+                                <img src="./assets/img/mo_2.png" class="pop">
                                 <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
                                                           <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
                                                       </svg>
@@ -88,7 +87,7 @@
                               </div> -->
                         <!-- //modal -->
                           </div>
-                          <img src="./assets/img/main_or_4.png">
+                          <img src="./assets/img/main_or_5.png">
                     </div>
                     <!-- <div class="main-right"> -->
                         <!-- <img src="./assets/img/main_or_4.png"> -->
@@ -101,10 +100,18 @@
         <div class="event_fixmenu">
             <div class="inside fixed">
                 <ul>
-                    <li class="cate1">왜?<br>중요한가</li>
-                    <li class="cate2">매출이<br>가르키는 곳</li>
-                    <li class="cate3">디자인으로<br>고객에게 다가가기</li>
-                    <li class="cate4">3박자 협업<br>기획력+디자인+데이터</li>
+                    <li class="cate1">
+                        <a class="page-scroll" href="#section1">왜?<br>중요한가</a>
+                    </li>
+                    <li class="cate2 page-scroll">
+                        <a class="page-scroll" href="#section2">매출이<br>가르키는 곳</a>
+                    </li>
+                    <li class="cate3 page-scroll">
+                        <a class="page-scroll" href="#section3">디자인으로<br>고객에게 다가가기</a>
+                    </li>
+                    <li class="cate4 page-scroll">
+                        <a class="page-scroll" href="#section4">3박자 협업<br>기획력+디자인+데이터</a>     
+                    </li>
                 </ul>
             </div>
         </div>
@@ -278,6 +285,8 @@
             $(this).addClass('out');
             $('body').removeClass('modal-active');
         });
+
+
     </script>
 </body>
 </html>

@@ -1085,7 +1085,7 @@ html.modal-active, body.modal-active {
 }
 #modal-container .modal-background .modal {
   background: white;
-  height: 500px;
+  height: 300px;
   width: 800px;
   padding: 50px;
   display: inline-block;
@@ -1153,6 +1153,8 @@ html.modal-active, body.modal-active {
   color: white;
   background: #ee4e34;
 }
+
+.pop{width: 150%;}
 
 @keyframes unfoldIn {
   0% {
