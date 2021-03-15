@@ -73,6 +73,10 @@ body{
     flex-wrap: wrap;
     margin-left: 22px;
   }
+
+  #event3 .container .left{
+    margin-left: 50px;
+}
   
 .flex_item_list {
     flex-basis: 25%;
@@ -91,6 +95,10 @@ body{
     flex-shrink: 1;
     flex-basis: auto;
     */
+}
+
+.mini_3{
+    width: 79%;
 }
 
 /* //event3 */
@@ -113,6 +121,10 @@ body{
     flex-wrap: wrap;
     margin-left: 22px; */
 }
+
+#event2 .container .left{
+    margin-left: 50px;
+}
   
 .flex_item_list {
     flex-basis: 25%;
@@ -134,7 +146,7 @@ body{
 }
 
 .e2_2{
-    width: 50%;
+    width: 52%;
 }
 
   /* //event2 */
@@ -192,13 +204,12 @@ body{
     padding: 20px 0;
 }
 
+.bbanner{
+    width: 60%;
+}
 
 /* //event4 */
 
-
-
-
-  /* //event4 */
 
 
   #event5 {
@@ -217,6 +228,15 @@ body{
     flex-wrap: wrap;
     margin-left: 22px;
   }
+
+  #event5 .container .left{
+      margin-left: 50px;
+  }
+
+  
+  #event5 .container .left img{
+    width: 40%;
+}
   
 .flex_item_list {
     flex-basis: 25%;
