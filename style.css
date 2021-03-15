@@ -1571,6 +1571,11 @@ h1 {
   font-weight: 600;
 }
 
+a.active {
+  color: rgb(255, 240, 35);
+  border-bottom: 10px solid rgb(255, 240, 35);
+}
+
 /* fixed sections height */
 /* fixed sections height */
 /* fixed sections height */
