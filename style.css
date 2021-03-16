@@ -1538,7 +1538,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: black;
+  color: white;
 }
 
 .main-content {
@@ -1579,3 +1579,4 @@ a.active {
 /* fixed sections height */
 /* fixed sections height */
 /* fixed sections height */
+
