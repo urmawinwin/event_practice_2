@@ -520,10 +520,11 @@ li {
 }
 
 .inContentsOneAndOne .inone_o {
-  font-size: 18px;
+  font-size: 22px;
   display: block;
   padding: 20px;
   font-family: "ELAND_Choice_L";
+  font-weight: bold;
 }
 
 .inContentsOneAndOne .inone_t {

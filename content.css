@@ -1,3 +1,26 @@
+@font-face {
+    font-family: "S-CoreDream-3Light";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ELAND_Choice_L";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_L.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "paybooc-Medium";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
 body{
     margin: 0;
     padding: 0;
@@ -50,6 +73,7 @@ body{
     font-size: 22px;
     font-weight: bold;
     padding: 20px 0;
+    font-family: "ELAND_Choice_L";
 }
 
 /* //event1 */
@@ -74,8 +98,15 @@ body{
     margin-left: 22px;
   }
 
-  #event3 .container .left{
+#event3 .container .left{
     margin-left: 50px;
+}
+
+#event3 .container .left .tit{
+    font-family: "ELAND_Choice_L";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
 }
   
 .flex_item_list {
@@ -124,6 +155,13 @@ body{
 
 #event2 .container .left{
     margin-left: 50px;
+}
+
+#event2 .container .left .tit{
+    font-family: "ELAND_Choice_L";
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
 }
   
 .flex_item_list {
@@ -202,6 +240,7 @@ body{
     font-size: 22px;
     font-weight: bold;
     padding: 20px 0;
+    font-family: "ELAND_Choice_L";
 }
 
 .bbanner{
