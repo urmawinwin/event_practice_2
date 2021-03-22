@@ -4,6 +4,7 @@ body{
 }
 
 #section1{
+    position: relative;
     height: 100vh;
     background-image: url(./assets/sec1/subing_bg_4.png);
     background-size: 100%;
@@ -11,6 +12,9 @@ body{
 }
 
 #section1 .wrapper .content img{
+    position: absolute;
+    bottom: 300px;
+    left: 550px;
     width: 20%;
 }
 
