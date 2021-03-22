@@ -5,13 +5,13 @@ body{
 
 #section1{
     height: 100vh;
-    background-image: url(./assets/sec1/subing_bg_3.png);
+    background-image: url(./assets/sec1/subing_bg_4.png);
     background-size: 100%;
     /* background-color: rgb(200, 200, 200); */
 }
 
 #section1 .wrapper .content img{
-    width: 50%;
+    width: 20%;
 }
 
 /* //sec1 */
